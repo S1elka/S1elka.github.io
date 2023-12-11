@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #11181f;
+  
+  }
+  
+  /* Общие стили для header */
+  .banana {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #11181f;
+    padding: 10px 20px;
+    box-shadow: 0 5px 5px rgba(56, 56, 56, 0.1);
+    z-index: 1000;
+  }
+  .main-heading {
+    background-color: #11181f;
+    font-family: tahoma, sans-serif;
+    margin: 0;
+    color: white;
+    font-size: 21px;
+    font-weight: lighter;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+  }
+  
+  ul {
+    background-color: #11181f;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  ul li {
+    background-color: #11181f;
+    display: inline-block;
+    margin: 0 100px;
+  }
+  
+  .container34 {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
+  
+  .text-left, .text-right {
+    flex: 1;
+  }
+  
+  .centered-stripe {
+    width: 5px; /* Ширина полоски */
+    background-color: #ffffff; /* Цвет полоски */
+  }
+  .centered-stripe2 {
+    width: 60px; /* Ширина полоски */
+    background-color: #11181f; /* Цвет полоски */
+  }
+  .headache{
+    font-family: Arial, Verdana;
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+    margin-bottom: 0;
+    color: white;
+  }
+  .headache2{
+    font-size: 17px;
+    color: white;
+  }
+  .priroda{
+    height: 160px;
+    padding-left:20%;
+    width: 420px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .space{
+    padding-bottom:20px;
+  }
+  .priroda2{
+    height: 200px;
+    width: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+  .headache3{
+    display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+  margin: 0 auto;
+  
+  }
+
+        section[id="2"] {
+        display: grid;
+        justify-content: end;
+        align-items: end;
+    }
+    footer {
+        position: relative;
+        height: auto;
+        padding: 60px 100px;
+        background:#11181f;
+    }
+    footer .container2 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-gap: 30px;
+        margin-bottom: 60px;
+    }
+    footer .container2 .sec h2 {
+        position: relative;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px;
+    }
+    footer .container2 .sec h2::before {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 80px;
+        height: 4px;
+        background:rgba(115, 81, 225, 0.825);
+    }
+    footer .container2 .sec p {
+        color: #fff;
+    }
+    .sci {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 50px);
+        grid-gap: 10px;
+    }
+    .sci li {
+        list-style: none;
+    }
+    .sci li a {
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        background:black;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+    .sci li a:hover {
+        background: linear-gradient(50deg, rgba(115, 81, 225, 0.825), #000, #000);
+    }
+    .sci li a .fa {
+        color: #fff;
+        font-size: 30px;
+    }
+    .quicklinks {
+        position: relative;
+    }
+    .quicklinks li {
+        list-style: none;
+    }
+    .quicklinks li a {
+        color: #f7f7f7;
+        text-decoration: none;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    .quicklinks li a:hover {
+        color:rgba(115, 81, 225, 0.825);
+    }
+    .info {
+        position: relative;
+    }
+    .info li {
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        margin-bottom: 20px;
+    }
+    .info li span:nth-child(1) {
+        color: #fff;
+        font-size: 20px;
+    }
+    .info li span {
+        color: #fff;
+    }
+    .info a {
+        color: #f7f7f7;
+        text-decoration: none;
+    }
+    .info a:hover {
+        color: rgba(115, 81, 225, 0.825);
+    }
+    
+    @media (max-width: 991px) {
+        footer {
+            padding: 40px;
+        }
+        footer .container2 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media (max-width: 768px) {
+        footer .container2 {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
