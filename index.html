@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equip = "X-UA-Compatible" content  = "IE-edge"><!--Для совместимости с IE-->
+  <title>Астероиды и кометы</title>
+  <link rel="stylesheet" href="AstStyle.css">
+</head>
+<body>
+
+
+  <header class="banana">
+    <ul>
+     <li><h4 class="main-heading">Астероиды и кометы.</h4> </li>
+     <li>
+     <nav>
+        <ul>
+         <li><a href="index.html">Главная</a></li>
+         <li><a href="Asteroids4.html">Первые открытия</a></li>
+         <li><a href="Asteroids5.html">Интересные факты</a></li>
+        </ul>
+     </nav>
+     </li>
+    </ul>
+  </header>
+
+
+  <div class="container1">
+    <img src="space.jpg" alt="City JPG" class="image1">
+    <div class="text-on-image">Что такое астероиды и кометы? Чем они различаются? Как их открывали и другие интересные факты.</div>
+  </div>
+
+  <div class="davidz">
+    <h2 class="headcolumn2">Что такое астероиды и кометы? В чем их различие?</h2>
+    <div class="davidtxt">
+    <p> Каждый из нас, в разговорах о космосе слышал об астероидах и кометах. Но что они из себя представляют?<br>
+      Астероиды — относительно небольшие небесные тела Солнечной системы, движущиеся по орбите вокруг Солнца. Астероиды значительно уступают по массе и размерам планетам, имеют неправильную форму и не имеют 
+      атмосферы, хотя при этом и у них могут быть спутники.
+      Небольшое небесное тело, обращающееся вокруг Солнца по весьма вытянутой орбите в виде конического сечения. При приближении к Солнцу комета образует кому и иногда хвост из газа и пыли.
+      Комета отличается от астероида только составом: звездная пыль и лед вместо металлов. При подлете к Солнцу вещества начинают испаряться, за счет чего формируются знаменитые «хвосты».</p>
+    </div>
+    </div>
+
+    <h2 class="headcolumn1">Несколько интересных фактов об открытиях</h2>
+    <div class="columns1">
+      <div class="column1">
+        <p class="question">Годы открытия</p>
+        <p class="answer">Больше всего астероидов было открыто в 1977 году в количестве 102 тел. Среди них имеета астероид, названный в 2005 году честь
+           МГТУ им. Баумана. О появлении же некоторых комет люди знали с древних времен. Например, комета Галлея, была обнаружена не позже 240г до н.э., а периоды появления была обнаружена в 1705 году.</p>    
+      </div>
+      <div class="column1">
+        <p class="question">Именование комет</p>
+        <p class="answer">Все астероиды и кометы названы по-разному. Человек, первый открывший какого-либо астероида, имеет право предложить собственное имя, но существует множество ограничений. Например,
+           Имя астероида должно быть короче 17 символов, 
+          не иметь имен людей, известных в области политики или военных действий, если с момента их смерти не прошло 100 лет, а так же, к сожалению, не рекомендуют использовать клички своих домашних животных.
+          Однако, есть более интересные случаи, как Астероиды-троянцы. Они всегда должны называться в честь героев Троянской войны, а астероиды между Юпитером и Нептуном - в честь Кентавров.</p>
+      </div>
+      <div class="column1">
+        <p class="question">Имена первооткрывателей комет</p>
+        <p class="answer">Первооткрывателей астрономически объектов, в частности комет, немало, однако среди них есть так же знаменитые российские астрономы, такие как Сергей Иванович Белявский, 
+          Николай Степанович Черных и другие. Некоторые из них, как Еленин Леонид 
+          Владимирович, успели открыть даже не по одной комете. Борисов Геннадий Владимирович, например, занимается конструированием телескопов, в то время как астрономия является его хобби.</p>  
+      </div>
+    </div>
+<div class="cards">
+    <div class="box">
+    <a href="Asteroids2.html" class="card1">
+    <img src="asteroid.jpeg">
+    <div class="content">
+    <p>Астероиды</p>
+    </div>
+    </a>
+    </div>
+    <div class="box">
+    <a href="Asteroids3.html" class="card2">
+    <img src="comet.jpg">
+    <div class="content">
+    <p>Кометы</p>
+    </div>
+    </a>
+    </div>
+</div>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+    
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+  </script>
+  <script src="Ast.js"></script>
+
+  <section id="2">
+    <footer>
+        <div class="container2">
+            <div class="sec aboutus">
+                <h2>О нас</h2>
+                <p>Мы - слаженное сообщество, в котором исследуют и обсуждают интересные явления, объекты и факты космоса. На нашей страницу вы найдете множество информации, доступной и познавательной.</p>
+                <ul class="sci">
+                    <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-steam" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitch" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec contact">
+                <h2>Связь с нами</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span>Москва, метро Некрасовка</span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                        <p><a href="tel:+79275085971">+7 (964) 790-95-93</a></p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <p><a href="mailto:efr-polina2004@yandex.ru">juravchik2005@mail.ru</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </footer>       
+</section>
+
+</body>
+
+
+</body>
+</html>
